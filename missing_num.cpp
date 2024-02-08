@@ -6,14 +6,15 @@ int main(){
 	cout<<"Enter the size of the array: ";
 	cin>>n;
 
-	int arr[n]={0};
+	int size = n-1;
+	int arr[size]={0};
 	cout<<"\nEnter the elements of the array starting from 1: ";
 	for(int i= 0; i<n; i++){
 		cin>>arr[i];
 	}
 
 	int sum=0;
-	for(int i = 0; i<n; i++){
+	for(int i = 0; i<size; i++){
 		sum+=arr[i];
 	}
 
