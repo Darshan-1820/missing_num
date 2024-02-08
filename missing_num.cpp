@@ -24,7 +24,7 @@ int main(){
 	}
 
 	cout<<"\nNumber missing from the array= ";
-	cout<<totalSum-sum;
+	cout<<totalSum-sum<<endl;
 
 
   
